@@ -1,0 +1,36 @@
+{
+	"name": "pretty-pink",
+	"version": "0.1.0",
+	"displayName": "Pretty Pink Syntax Theme",
+	"description": "A magenta-pinkish syntax highlight theme",
+	"publisher": "nptr",
+	"repository": "https://github.com/nptr/pretty-pink",
+	"license": "MIT",
+	"icon": "images/icon.png",
+	"keywords": [
+		"pretty pink",
+		"syntax",
+		"highlight",
+		"color",
+		"theme"
+	],
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Pretty Pink (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/pretty-pink-dark.json"
+			}
+		]
+	},
+	"__metadata": {
+		"isApplicationScoped": false,
+		"installedTimestamp": 1691597840005
+	}
+}
